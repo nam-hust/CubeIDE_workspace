@@ -64,7 +64,7 @@ void TaskC_init(void const * argument);
 /* USER CODE BEGIN 0 */
 void send_taskA(void)
 {
-	uint8_t data[] = "Hello from task A\n";
+	uint8_t data[] = "Haha from task A\n";
 	HAL_UART_Transmit(&huart2, data, sizeof(data), 500);
 }
 void send_taskB(void)
